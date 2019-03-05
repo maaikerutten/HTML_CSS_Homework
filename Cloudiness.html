@@ -9,7 +9,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<script src="https://code.jquery.com/jquery.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -25,44 +25,28 @@
   <body>
         <nav class="navbar navbar-default">
                 <div class="container-fluid">
-                           <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
+                  <div class="navbar-header">
                     <a class="navbar-brand" href="#">LATITUDE</a>
                   </div>
-              
-                    <ul class="nav navbar-nav navbar-right">
+                     <ul class="nav navbar-nav navbar-right">
                       <li><a href="Comparison.html">Comparison</a></li>
                       <li><a href="Data.html">Data</a></li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
                             <ul class="dropdown-menu">
                                 <li><a href="MaxTemp.html">Maximum Temperature vs Latitude</a></li>
                                 <li><a href="Humidity.html">Humidity vs Latitude</a></li>
                                 <li><a href="Cloudiness.html">Cloudiness vs Latitude</a></li>
                                 <li><a href="WindSpeed.html">Wind Speed vs Latitude</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-
-                        </ul>
+                            </ul>
                       </li>
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
+                      </ul>
                 </div><!-- /.container-fluid -->
-              </nav>
-    
-    <h1>Latitude versus Cloudiness</h1>
-    <img src="C:\Users\maaik\HTML_CSS_Homework\images\Cloudiness.png" class="img-responsive" alt="Responsive image"></img>
-    <h4>There seesm to be no connection between cloudiness and the latitude of cities. Suprising is that there are a large number of cities with near to no cloudiness</h4>
-  </body>
+        </nav>
+    <div class= "col-md-9" role="main">
+        <h1>Latitude versus Cloudiness</h1>
+        <img src="C:\Users\maaik\HTML_CSS_Homework\images\Cloudiness.png" class="img-responsive" alt="Responsive image"></img>
+        <h4>There seems to be no connection between cloudiness and the latitude of cities. Suprising is that there are a large number of cities with near to no cloudiness</h4>
+    </div>
+</body>
 </html>
